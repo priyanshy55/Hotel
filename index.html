@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#picture">Picture</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#places to visit">Places to Visit</a></li>
+
+            <li><a href="#contact">Contact </a></li>
+
+
+        </ul>
+    </nav>
+    <section id="home">
+
+        <div class="main">
+            <h1 class="heading">WELCOME TO <br>RAJ MAHAL PALACE</h1>
+            <button class="btn">
+                Let's get started
+
+            </button>
+        </div>
+    </section>
+    <div class="content">
+        <div class="left-col">
+
+
+        </div>
+        <div class="right-col">
+
+            <img src="volume-off13.png" id="icon">
+
+        </div>
+    </div>
+    <audio id="mySong">
+        <source src="palace.m4a" type="audio/mp3">
+    </audio>
+    <script>
+
+        var mySong = document.getElementById("mySong");
+        var icon = document.getElementById("icon");
+        icon.onclick = function () {
+            if (mySong.paused) {
+                mySong.play();
+                icon.src = "volume-on.gif";
+            } else {
+                mySong.pause();
+                icon.src = "volume-off13.png";
+            }
+        }
+
+    </script>
+    <section id="about">
+        <h1 class="heading">ABOUT US</h1>
+        <div id="pic">
+
+            <img src="grand hotel.jpg" alt="">
+            <div id="intro">
+                <h2>RAJ MAHAL PALACE</h2>
+                <p>The Rajmahal Palace in Jaipur, Rajasthan is the former residence of the Maharaja of Jaipur located 5
+                    miles (8.0 km)
+                    outside the walls of the city of Jaipur on Bhawani Singh road.
+                    The first building on the site was a garden house built in 1835 for the wet nurse of prince Ram
+                    Singh II.
+                    In 1887, during the reign of Maharaja Sawai Madho Singh, it was converted into a modest royal
+                    hunting lodge, as the house
+                    was located in the midst of a thick forest at that time.
+                    In the early 20th century, it was expanded into a palace to the designs of Sir Samuel Swinton Jacob.
+                    Maharajah Sawai Man Singh II made Rajmahal his principal residence and added a number of royal
+                    suites in 1931.
+
+                    It is now operated as a five-star hotel by the Taj Hotels Group. Anderson Cooper stayed at the
+                    Rajmahal Palace in 2009.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="picture">
+
+        <h1 class="heading">GALLERY</h1>
+        <marquee>
+            <img src="grandhotel.jpg" alt="" style="width: 400px;">
+            <br>
+        </marquee>
+        <img src="hotel 1.jpg" alt="" style="width: 400px;">
+        <br>
+        <marquee direction="up">
+            <img src="tajfalaknuma.jpeg" alt="" style="width: 400px;">
+            <br>
+        </marquee>
+        <img src="sidehotel.jpg" alt="" style="width: 400px;">
+        <br>
+        <img src="BARimg 1.png" alt="" style="width: 400px;">
+        <br>
+        <marquee>
+            <img src="purpose1.jpg" alt="" style="width: 400px;">
+            <br>
+        </marquee>
+        <img src="bed1.jpg" alt="" style="width: 400px;">
+        <br>
+        <marquee direction="up">
+            <img src="bed2.jpg" alt="" style="width: 400px;">
+            <br>
+        </marquee>
+        <img src="double bed1.jpg" alt="" style="width: 400px;">
+        <br>
+        <img src="swim1.jpeg" alt="" style="width: 400px;">
+        <br>
+        <marquee>
+            <img src="innerswim.jpg" alt="" style="width: 400px;">
+            <br>
+        </marquee>
+        <img src="nighttable.jpg" alt="" style="width: 400px;">
+        <br>
+        <marquee>
+            <img src="room12.jpg" alt="" style="width: 400px;">
+            <br>
+        </marquee>
+        <img src="table1.jpg" alt="" style="width: 400px;">
+        <br>
+        <marquee direction="up">
+            <img src="bathimg.jpg" alt="" style="width: 400px;">
+        </marquee>
+
+    </section>
+    <section id="service">
+        <h1 class="heading">SERVICE</h1>
+
+        <br>
+
+        <div class="row">
+            <div class="box">
+                <img src="images3.jfif" alt=""><br>
+                <h1 class="headings">Food</h1><bR>
+                <p>In our palace we provide different types of food service. Here the guest can get table service, Self
+                    service and specialised
+                    or in situ service.We provide our guest both veg and non veg food along with drinks and many more
+                    things. Here the guest will
+                    gate breakfast, lunch ,snack along with red wine and dinner.
+                </p>
+            </div>
+
+            <div class="box">
+                <img src="img12.jpeg" alt=""><br>
+                <h1 class="headings">Spa</h1><bR>
+                <p>It is very common that guest would like to relax after a long flight. Hotel can offer classical
+                    massage in the first.
+                    And make sure you given an opportunity to guest to book more body treatment in the next day.
+
+                </p>
+            </div>
+            <div class="box">
+                <img src="p1.jpg" alt=""><br>
+                <h1 class="headings"> Rooms</h1><bR>
+                <p>In our palace we provide different types of rooms ranging from Rs36000 to Rs410000 per day according
+                    to rooms.
+                    In the highest price room it is type of king room. In rooms we have ethentic type of decoration .
+                    Here our guests can get the feeling
+                    of Royal people.
+                </p>
+            </div>
+            <div class="box">
+                <img src="meet1.png" alt=""><br>
+                <h1 class="headings"> Meeting Room</h1><bR>
+                <p>In our palace we provide our guests to do their personal/profossinal meentings. During meentings our
+                    teams provide all essentials related
+                    to meetings like snacks ,wines coffee, tea ,jucie and many more things.
+                    In our meeting rooms we have all the arrangement related to meetings.
+                </p>
+            </div>
+
+
+
+        </div>
+
+
+
+    </section>
+    <section id="places">
+        <h1 class="heading">PLACES TO VISIT</h1>
+        <div id="pic">
+
+            <img src="r1.gif" alt="">
+            <div id="intro">
+                <h2>TOURISM</h2>
+                <p>India is a vibrant land of startling contrasts where both the traditional and modern worlds meet.
+                    The world's seventh largest nation by area and the second largest in terms of population, India
+                    boasts a rich heritage that's the result
+                    of centuries of different cultures and religions leaving their mark. Things to do for travelers
+                    include the opportunity to experience an array of sacred sites
+                    and spiritual encounters, while nature lovers will enjoy its sun-washed beaches, lush national
+                    parks,
+                    and exciting wildlife sanctuaries.
+                    From the magnificent Taj Mahal in Agra to the holy sites of Harmandir Sahib (formerly the Golden
+                    Temple) in Amritsar and the
+                    Mecca Masjid mosque in Hyderabad, visitors to this exotic country will discover a trove of
+                    spiritual, cultural, and historical treasures.
+
+                    To help you make the most of your time in this amazing country, refer often to our list of the top
+                    things to do in India.
+                    We are providing all the travel facilites.
+                </p>
+                <br><br>
+                <br>
+                <br>
+                <div class="button"><a href="file:///C:/Users/Dell/Desktop/places%20to%20visit/firstpage.html">
+                        CLICK HERE </a></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="heading">CONTACT</h1>
+        <form action="insert.php" method="POST" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+
+            <input type="submit" value="SEND" id="send">
+        </form>
+        <section id="name">
+            <h1 id="heading">
+                CONTACT US ON
+            </h1>
+            <br>
+            <br>
+            PALLAVI
+            <br>
+            <br>
+            <a href="https://www.instagram.com/pallaviranjan16" class="button" style="font-size:30px">Instagram <i
+                    class="fa fa-instagram"></i></a>
+            <br>
+            <br>
+
+            P R I Y A N S H
+            <br>
+            <br>
+            <a href="https://www.instagram.com/ypriyansh2621" class="button" style="font-size:30px">Instagram <i
+                    class="fa fa-instagram"></i></a>
+            <br>
+            <br>
+
+            M E H T A B
+            <br>
+            <br>
+            <a href="https://www.instagram.com/its__mehtab_" class="button" style="font-size:30px">Instagram <i
+                    class="fa fa-instagram"></i></a>
+        </section>
+
+    </section>
+
+</body>
+
+</html>
